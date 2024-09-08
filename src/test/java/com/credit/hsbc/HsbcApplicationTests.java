@@ -46,6 +46,7 @@ class HsbcApplicationTests {
             }
             log.info("第{}次循环处理结果输出：{}",i+1, newString);
         }
+//        assertEquals("d", stringProcessorService.processString(inputStr));
     }
 
 
@@ -68,6 +69,7 @@ class HsbcApplicationTests {
             }
             log.info("第{}次循环处理结果输出：{}",i+1, newString);
         }
+//        assertEquals("d", stringProcessorService.processString(inputStr));
     }
 
 

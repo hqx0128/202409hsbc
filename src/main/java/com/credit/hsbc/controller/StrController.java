@@ -57,6 +57,7 @@ public class StrController {
             list.add(newString);
             log.info("第{}次循环处理结果输出：{}",i+1, newString);
         }
+//        assertEquals("d", stringProcessorService.processString(inputStr));
         return Result.success(list);
     }
 
@@ -86,6 +87,7 @@ public class StrController {
             list.add(newString);
             log.info("第{}次循环处理结果输出：{}",i+1, newString);
         }
+//        assertEquals("d", stringProcessorService.processString(inputStr));
         return Result.success(list);
     }
 
